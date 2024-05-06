@@ -2,6 +2,7 @@
 :root{
   /* --primary: #09ba65; */
   --primary: #0080FF;
+  --secondary: #09ba65;
 }
 
 body {
@@ -695,6 +696,74 @@ a:focus {
 }
 
 /*team section end*/
+
+/* testimonial start */
+
+/*** Testimonial ***/
+.testimonial-carousel .owl-item .testimonial-item{
+  background-color: #F2F2F2 !important;
+}
+.testimonial-carousel .owl-item .testimonial-item,
+.testimonial-carousel .owl-item.center .testimonial-item * {
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-item.center .testimonial-item {
+    background: var(--primary) !important;
+    border-color: var(--secondary) !important;
+}
+.testimonial-carousel .owl-item.center .testimonial-item .quatation{
+  background: var(--secondary) !important;
+}
+
+.testimonial-carousel .owl-item.center .testimonial-item .position-absolute {
+    background: var(--secondary) !important;
+}
+
+.testimonial-carousel .owl-item.center .testimonial-item * {
+    color: #FFFFFF;
+}
+
+.testimonial-carousel .owl-item.center .testimonial-item h6 {
+    color: black !important;
+}
+
+.testimonial-carousel .owl-dots {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.testimonial-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    background: #DDDDDD;
+    border-radius: 15px;
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-dot.active {
+    width: 30px;
+    background: var(--primary);
+}
+.testimonial-carousel .owl-nav{
+  display: none !important;
+}
+.testimonial-carousel .quatation{
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translatey(-50%);
+}
+.testimonial-carousel .owl-dots button:not(.active){
+  background-color: #F2F2F2 !important;
+}
+/* testimonial end */
+
+
 /* client section start */
 .client_section .heading_container {
   margin-bottom: 30px;
