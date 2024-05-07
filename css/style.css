@@ -551,7 +551,10 @@ a:focus {
 .about_section .detail-box a:hover {
   background-color: #048b4a;
 }
-
+/* payment gatway */
+.payment-getway img{
+  object-fit: contain;
+}
 .why_section .box {
   margin-top: 45px;
   display: -webkit-box;
