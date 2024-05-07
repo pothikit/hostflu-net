@@ -91,7 +91,7 @@ a:focus {
 
 /* header top */
 .header-top{
-  background-color: #044e8b;
+  background-color: #2752ff;
 }
 /*header section*/
 .hero_area {
@@ -946,7 +946,7 @@ a:focus {
 }
 
 /* footer section*/
-.footer_section {
+/* .footer_section {
   position: relative;
   background-color: #ffffff;
   text-align: center;
@@ -960,5 +960,33 @@ a:focus {
 
 .footer_section p a {
   color: inherit;
+} */
+footer{
+  background-image: url(../images/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+.footer-list{
+  list-style: none;
+  display: flex;
+  flex-direction: column; 
+  gap: 15px;
+  padding:0;
+  font-size: .9rem;
+  align-items: start;
+  justify-content: start;
+}
+footer a, 
+footer p{
+  color: white;
+}
+footer .footer-heading{
+  margin-bottom: 20px;
+}
+footer .footer-heading h2{
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
