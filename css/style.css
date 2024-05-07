@@ -178,7 +178,8 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color: #00bbf0;
+  /* color: #00bbf0; */
+  color: rgb(200, 207, 255);
 }
 
 .custom_nav-container .navbar-nav .nav-item.active .nav-link {
@@ -502,7 +503,12 @@ a:focus {
 .service_section .btn-box a:hover {
   background-color: #048b4a;
 }
-
+/* pricing start */
+.pricing-icon{
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .about_section {
   background-color: var(--primary);
   color: #ffffff;
@@ -962,7 +968,8 @@ a:focus {
   color: inherit;
 } */
 footer{
-  background-image: url(../images/footer-bg.jpg);
+  background: linear-gradient(0deg, rgba(0, 81, 255, 0.806), rgba(43, 0, 255, 0.806)), url(../images/footer-bg.jpg);
+    /* background:linear-gradient(url(), black, black); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
