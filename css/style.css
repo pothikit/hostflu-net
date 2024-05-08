@@ -484,8 +484,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-top: 45px;
 }
 
@@ -971,7 +971,7 @@ a:focus {
   color: inherit;
 } */
 footer{
-  background: linear-gradient(0deg, rgba(0, 49, 156, 0.737), rgba(29, 0, 176, 0.737)), url(../images/footer-bg.jpg);
+  background: linear-gradient(0deg, rgb(15 88 249), rgb(29 0 176 / 88%)), url(../images/footer-bg.jpg);
     /* background:linear-gradient(url(), black, black); */
     background-repeat: no-repeat;
     background-size: cover;
