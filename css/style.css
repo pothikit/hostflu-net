@@ -124,6 +124,16 @@ a:focus {
   overflow: hidden;
   z-index: -1;
 }
+.common-hero{
+  min-height:400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+  background-position: center !important;
+}
 
 .hero_area .hero_bg_box .bg_img_box {
   min-width: 100%;
@@ -452,9 +462,9 @@ a:focus {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  width: 125px;
+  width: 150px;
   min-width: 75px;
-  height: 75px;
+  height: 90px;
   margin-bottom: 15px;
 }
 
@@ -504,10 +514,19 @@ a:focus {
   background-color: #048b4a;
 }
 /* pricing start */
+.pricing-section button:focus{
+  border: 1px solid var(--primary) !important;
+  outline: 0 !important;
+}
 .pricing-icon{
   top: 0;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+/* about page */
+.about-hero{
+  /* background: linear-gradient(0deg, rgb(15 88 249), rgb(29 0 176 / 88%)), url(../images/footer-bg.jpg); */
+  background: linear-gradient( #00000076, #00000076), url(../images/aboutbg.jpg);
 }
 .about_section {
   background-color: var(--primary);
@@ -998,5 +1017,8 @@ footer .footer-heading{
 footer .footer-heading h2{
   font-size: 1.3rem;
   font-weight: bold;
+}
+footer a:hover{
+  color: white
 }
 /*# sourceMappingURL=style.css.map */
