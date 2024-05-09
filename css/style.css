@@ -674,7 +674,7 @@ a:focus {
 
 /*** Testimonial ***/
 .testimonial-carousel .owl-item .testimonial-item{
-  background-color: #F2F2F2 !important;
+  background-color: #f7f7f7 !important;
 }
 .testimonial-carousel .owl-item .testimonial-item,
 .testimonial-carousel .owl-item.center .testimonial-item * {
@@ -682,8 +682,13 @@ a:focus {
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
-    background: var(--primary) !important;
+    /* background: #e7e7e7d6 !important; */
+    background: #dededed6 !important;
+    color: black !important;
     border-color: var(--secondary) !important;
+}
+.testimonial-carousel .owl-item.center p,.testimonial-carousel .owl-item.center small {
+  color: black !important;
 }
 .testimonial-carousel .owl-item.center .testimonial-item .quatation{
   background: var(--secondary) !important;
