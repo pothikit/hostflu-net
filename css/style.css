@@ -58,6 +58,10 @@ body {
 .heading_container h2 span {
   color: #00bbf0;
 }
+.login-menu-btn{
+  color: #000 !important;
+  padding: 5px 15px;
+}
 
 .heading_container p {
   margin-top: 10px;
@@ -608,7 +612,7 @@ a:focus {
   min-width: 120px;
   min-height: 120px;
   border-radius: 100%;
-  border: 2px solid var(--primary);
+  border: 2px solid #858383;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -697,17 +701,20 @@ a:focus {
     /* background: #e7e7e7d6 !important; */
     background: #dededed6 !important;
     color: black !important;
-    border-color: var(--secondary) !important;
+    border-color: var(--primary) !important;
 }
 .testimonial-carousel .owl-item.center p,.testimonial-carousel .owl-item.center small {
   color: black !important;
 }
 .testimonial-carousel .owl-item.center .testimonial-item .quatation{
-  background: var(--secondary) !important;
+  background: var(--primary) !important;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item .position-absolute {
     background: var(--secondary) !important;
+}
+.testimonial-carousel .quatation {
+  background: #b0afaf !important;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item * {
