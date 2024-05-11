@@ -135,7 +135,7 @@ a:focus {
   background-position: center !important;
 } */
 .common-hero img{
-  max-height: 70vh;
+  max-height: 60vh;
 }
 
 
@@ -538,8 +538,11 @@ a:focus {
  background:url(../images/pricing-hero.jpg);
 } */
 .about_section {
-  background-color: var(--primary);
-  color: #ffffff;
+  /* background-color: var(--primary); */
+  color: #000;
+}
+.about-hero{
+  background-color: #f0f0fb;
 }
 
 .about_section .heading_container {
@@ -1036,3 +1039,31 @@ footer a:hover{
   color: white
 }
 /*# sourceMappingURL=style.css.map */
+/* responsive for mobile device 768px */
+@media (max-width: 576px) {
+  .header-top{
+    position: fixed;
+   right: 0;
+    top:70%;
+    z-index: 9999;
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+    padding-bottom: 10px;
+  }
+  .header-top .container{
+    padding: 0;
+  }
+  .header-top .topbar-wrap{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .header-top .topbar-items{
+    background-color: rgba(0, 26, 198, 0.777);
+    backdrop-filter: blur(20px);
+    border-radius: 50% 0 0 50%;
+    margin-top: 10px;
+    padding: 10px 0;
+  }
+}
