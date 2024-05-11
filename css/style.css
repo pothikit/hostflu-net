@@ -124,8 +124,8 @@ a:focus {
   overflow: hidden;
   z-index: -1;
 }
-.common-hero{
-  min-height:400px;
+/* .common-hero{
+  height:600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -133,7 +133,11 @@ a:focus {
   background-repeat: no-repeat !important;
   background-size: 100% 100% !important;
   background-position: center !important;
+} */
+.common-hero img{
+  max-height: 70vh;
 }
+
 
 .hero_area .hero_bg_box .bg_img_box {
   min-width: 100%;
@@ -283,7 +287,6 @@ a:focus {
   position: relative;
   padding: 45px 0 145px 0;
 }
-
 .slider_section .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -525,10 +528,15 @@ a:focus {
   transform: translate(-50%, -50%);
 }
 /* about page */
-.about-hero{
+/* .about-hero{ */
   /* background: linear-gradient(0deg, rgb(15 88 249), rgb(29 0 176 / 88%)), url(../images/footer-bg.jpg); */
-  background: linear-gradient( #00000076, #00000076), url(../images/aboutbg.jpg);
-}
+ /* background: linear-gradient( #00000076, #00000076), url(../images/aboutbg.jpg);*/
+ /* background:url(../images/aboutbg.jpg) ; */
+/* } */
+/* about page */
+/* .pricing-hero{
+ background:url(../images/pricing-hero.jpg);
+} */
 .about_section {
   background-color: var(--primary);
   color: #ffffff;
